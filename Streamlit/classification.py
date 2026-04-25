@@ -46,7 +46,7 @@ input_data = pd.DataFrame(
     columns=df.columns[:-1]
 )
 
-prediction = model.predict(input_data)
+prediction = model.predict(input_data) 
 prediction_species = target_name[prediction[0]]
 
 st.write("Predictions")
